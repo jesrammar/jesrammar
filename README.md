@@ -1,6 +1,6 @@
 # 👋 Hola, soy Jesús — Backend Developer (Java/Spring)
 
-🎓 Estudiante de Ingeniería Informática (75% completado; objetivo 95% este curso).  
+🎓 Estudiante de Ingeniería Informática (85% completado; objetivo 100% este curso).  
 💻 Construyo **APIs resilientes** con **Spring Boot 3**, **caché** y **pruebas automatizadas**.  
 🚀 Busco prácticas / mi primer rol como **backend developer**.
 
@@ -15,14 +15,13 @@
 
 ---
 
-### 🔭 Proyectos destacados
+### 🔭 Proyecto destacado
 - [**DiceBear Proxy + Cache**](https://github.com/jesrammar/spring-dicebear-proxy-cache) — Proxy en Spring Boot con **Caffeine Cache** y **Resilience4j**, documentado con Swagger y Actuator, CI con GitHub Actions.  
-- [**TaskFlow**](https://github.com/jesrammar/TaskFlow) — Gestión de tareas con autenticación. Backend con Spring, frontend con React.  
 
 ---
 
 ### 📫 Contacto
-- ✉️ Email: tuemail@ejemplo.com  
-- 💼 LinkedIn: [linkedin.com/in/jesrammar](#)  
+- ✉️ Email: villalbero14@gmail.com
+- 💼 LinkedIn: por definir
 
 > *“Escribo tests, mido y mejoro.”*
