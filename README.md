@@ -1,16 +1,28 @@
-## Hi there 👋
+# 👋 Hola, soy Jesús — Backend Developer (Java/Spring)
 
-<!--
-**jesrammar/jesrammar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Estudiante de Ingeniería Informática (75% completado; objetivo 95% este curso).  
+💻 Construyo **APIs resilientes** con **Spring Boot 3**, **caché** y **pruebas automatizadas**.  
+🚀 Busco prácticas / mi primer rol como **backend developer**.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧰 Tech Stack
+- **Lenguajes**: Java 21, SQL  
+- **Frameworks**: Spring Boot (WebFlux, Data, Security), Resilience4j  
+- **Infra & Tools**: Maven, Docker, GitHub Actions  
+- **Testing**: JUnit5, WireMock  
+- **Frontend (básico)**: React  
+
+---
+
+### 🔭 Proyectos destacados
+- [**DiceBear Proxy + Cache**](https://github.com/jesrammar/spring-dicebear-proxy-cache) — Proxy en Spring Boot con **Caffeine Cache** y **Resilience4j**, documentado con Swagger y Actuator, CI con GitHub Actions.  
+- [**TaskFlow**](https://github.com/jesrammar/TaskFlow) — Gestión de tareas con autenticación. Backend con Spring, frontend con React.  
+
+---
+
+### 📫 Contacto
+- ✉️ Email: tuemail@ejemplo.com  
+- 💼 LinkedIn: [linkedin.com/in/jesrammar](#)  
+
+> *“Escribo tests, mido y mejoro.”*
