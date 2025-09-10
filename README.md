@@ -1,27 +1,58 @@
-# 👋 Hola, soy Jesús — Backend Developer (Java/Spring)
+<!-- ====== HERO / BANNER ====== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:16a34a&height=110&section=header&text=Jesús%20R.%20|%20Backend%20Developer&fontColor=ffffff&fontSize=32&fontAlignY=55&desc=Java%20·%20Spring%20Boot%20·%20APIs%20resilientes&descAlignY=85" alt="banner" />
+</p>
 
-🎓 Estudiante de Ingeniería Informática (85% completado; objetivo 100% este curso).  
-💻 Construyo **APIs resilientes** con **Spring Boot 3**, **caché** y **pruebas automatizadas**.  
-🚀 Busco prácticas / mi primer rol como **backend developer**.
+<!-- ====== CTA ====== -->
+<p align="center">
+  <a href="mailto:villalbero14@gmail.com">
+    <img src="https://img.shields.io/badge/Contáctame-Email-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/TU-LINKEDIN-AQUI">
+    <img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache">
+    <img src="https://img.shields.io/badge/Proyecto%20estrella-DiceBear%20Proxy-16a34a?style=for-the-badge&logo=spring&logoColor=white&labelColor=111827" alt="Proyecto estrella" />
+  </a>
+</p>
+
+<!-- ====== ONE-LINER (marketing) ====== -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1100&center=true&vCenter=true&width=900&lines=Backend+Developer+enfocado+en+APIs+resilientes%2C+cach%C3%A9+y+pruebas;Java+%7C+Spring+Boot+%7C+WebFlux+%7C+Resilience4j;Estudiante+de+Ing.+Inform%C3%A1tica+%F0%9F%93%96" alt="claim" />
+</p>
 
 ---
 
-### 🧰 Tech Stack
-- **Lenguajes**: Java 21, SQL  
-- **Frameworks**: Spring Boot (WebFlux, Data, Security), Resilience4j  
-- **Infra & Tools**: Maven, Docker, GitHub Actions  
-- **Testing**: JUnit5, WireMock  
-- **Frontend (básico)**: React  
+## Sobre mí
+- 🎯 Me especializo en **servicios backend** con **Spring Boot** (WebFlux, Resilience4j, Caffeine).
+- 🧪 Prioridad en **testing y calidad** (JUnit5, WireMock, CI con GitHub Actions).
+- 📚 Estudiante de **Ingeniería Informática**.  
+- 🔎 Busco **prácticas / primer rol** como backend.
 
 ---
 
-### 🔭 Proyecto destacado
-- [**DiceBear Proxy + Cache**](https://github.com/jesrammar/spring-dicebear-proxy-cache) — Proxy en Spring Boot con **Caffeine Cache** y **Resilience4j**, documentado con Swagger y Actuator, CI con GitHub Actions.  
+## 🧰 Tech Stack (selección)
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="Spring"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub"/>
+</p>
 
 ---
 
-### 📫 Contacto
-- ✉️ Email: villalbero14@gmail.com
-- 💼 LinkedIn: por definir
+## ⭐ Portafolio
+### [DiceBear Proxy + Cache](https://github.com/jesrammar/spring-dicebear-proxy-cache)
+**Spring Boot 3** + **WebFlux** · **Caffeine Cache** · **Resilience4j** (retry/timeout) · **OpenAPI/Swagger** · **Actuator** · **JUnit5 + WireMock** · **GitHub Actions**  
+<img src="https://img.shields.io/badge/Java-21-111827?style=flat&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring_Boot-3.x-111827?style=flat&logo=springboot&logoColor=16a34a"> <img src="https://img.shields.io/badge/Caffeine-Cache-111827?style=flat"> <img src="https://img.shields.io/badge/Resilience4j-Retry%2FTimeout-111827?style=flat"> <img src="https://img.shields.io/badge/Docs-OpenAPI%2FSwagger-111827?style=flat">
 
-> *“Escribo tests, mido y mejoro.”*
+**Qué resuelve**
+- Reduce latencia y llamadas al proveedor externo **cacheando** respuestas.
+- Añade **resiliencia** (reintentos/timeouts) y **observabilidad**.
+
+**Quickstart**
+```bash
+mvn spring-boot:run
+# Swagger en /swagger-ui   ·   Health/metrics vía Actuator
