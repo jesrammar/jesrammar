@@ -8,7 +8,7 @@
   <a href="mailto:villalbero14@gmail.com">
     <img src="https://img.shields.io/badge/Contáctame-Email-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/https://www.linkedin.com/in/jes%C3%BAs-ram%C3%ADrez-mart%C3%ADnez-66764b214/">
+  <a href="https://www.linkedin.com/https://www.linkedin.com/jesús-ramírez-martínez">
     <img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
   </a>
   <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache">
