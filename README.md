@@ -57,3 +57,5 @@
 ```bash
 mvn spring-boot:run
 # Swagger en /swagger-ui   ·   Health/metrics vía Actuator
+
+<p align="center"> <img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=jesrammar&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&theme=transparent" /> <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&hide_title=true&theme=transparent" /> </p> <p align="center"> <img alt="Streak" src="https://streak-stats.demolab.com?user=jesrammar&theme=transparent&hide_border=true" /> </p> <p align="center"> <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=jesrammar&theme=onestar&no-frame=true&margin-w=15" /> </p> <p align="center"> <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jesrammar&theme=github-dark&radius=8&area=true" /> </p>
