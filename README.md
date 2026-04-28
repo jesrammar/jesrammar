@@ -119,8 +119,7 @@ Proyecto académico de ecommerce con `Django`, pagos con `Stripe`, panel de gest
 ## Métricas
 
 <p align="center">
-  <img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=jesrammar&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide_rank=true&theme=transparent" />
-  <img alt="Top languages" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&hide_title=true&theme=transparent" />
+  <img alt="Top languages" height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&custom_title=Lenguajes%20m%C3%A1s%20presentes%20en%20mis%20repos&theme=transparent" />
 </p>
 
 <p align="center">
