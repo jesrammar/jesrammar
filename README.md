@@ -9,12 +9,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Backend-Java%20%2B%20Spring%20Boot-0f172a?style=flat-square&logo=spring&logoColor=6DB33F" alt="Backend Java Spring Boot" />
-  <img src="https://img.shields.io/badge/Formaci%C3%B3n-%C3%9Altimo%20a%C3%B1o%20Ingenier%C3%ADa%20del%20Software-0f172a?style=flat-square&logo=bookstack&logoColor=93c5fd" alt="Último año Ingeniería del Software" />
-  <img src="https://img.shields.io/badge/Disponibilidad-Verano%202026-0f172a?style=flat-square&logo=calendar&logoColor=22c55e" alt="Disponible Verano 2026" />
-</p>
-
-<p align="center">
   <a href="mailto:villalbero14@gmail.com">
     <img src="https://img.shields.io/badge/Email-villalbero14%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
   </a>
@@ -27,7 +21,8 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&center=true&vCenter=true&width=900&color=E5E7EB&lines=APIs+limpias%2C+testeables+y+documentadas;Cach%C3%A9%2C+resiliencia%2C+CI+y+mentalidad+de+producci%C3%B3n" alt="Resumen profesional" />
+  <strong>APIs limpias, testeables y documentadas.</strong><br />
+  Caché, resiliencia, CI y mentalidad de producción.
 </p>
 
 ## Sobre mí
@@ -117,10 +112,6 @@ Proyecto académico de ecommerce con `Django`, pagos con `Stripe`, panel de gest
 - Comunicación clara y trabajo en equipo.
 
 ## Métricas
-
-<p align="center">
-  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&hide_title=true&theme=transparent" />
-</p>
 
 <p align="center">
   <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jesrammar&theme=github-dark&bg_color=0d1117&color=9be9a8&line=2ea043&point=58a6ff&hide_border=true&radius=8&area=true" />
