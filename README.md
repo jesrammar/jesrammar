@@ -119,7 +119,7 @@ Proyecto académico de ecommerce con `Django`, pagos con `Stripe`, panel de gest
 ## Métricas
 
 <p align="center">
-  <img alt="Top languages" height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&custom_title=Lenguajes%20m%C3%A1s%20presentes%20en%20mis%20repos&theme=transparent" />
+  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&hide_title=true&theme=transparent" />
 </p>
 
 <p align="center">
