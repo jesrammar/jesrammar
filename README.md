@@ -5,7 +5,13 @@
 <p align="center">
   <strong>Jesús R. | Backend Developer</strong><br />
   Java · Spring Boot · REST APIs · Testing · Resiliencia<br />
-  Disponible para prácticas de verano + posible incorporación
+  Disponible para prácticas de verano 2026 + posible incorporación
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-Java%20%2B%20Spring%20Boot-0f172a?style=flat-square&logo=spring&logoColor=6DB33F" alt="Backend Java Spring Boot" />
+  <img src="https://img.shields.io/badge/Formaci%C3%B3n-%C3%9Altimo%20a%C3%B1o%20Ingenier%C3%ADa%20del%20Software-0f172a?style=flat-square&logo=bookstack&logoColor=93c5fd" alt="Último año Ingeniería del Software" />
+  <img src="https://img.shields.io/badge/Disponibilidad-Verano%202026-0f172a?style=flat-square&logo=calendar&logoColor=22c55e" alt="Disponible Verano 2026" />
 </p>
 
 <p align="center">
@@ -16,30 +22,31 @@
     <img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Ram%C3%ADrez%20Mart%C3%ADnez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
   </a>
   <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache">
-    <img src="https://img.shields.io/badge/Proyecto%20destacado-spring--dicebear--proxy--cache-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="Proyecto destacado" />
+    <img src="https://img.shields.io/badge/Proyecto%20principal-spring--dicebear--proxy--cache-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="Proyecto principal" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1400&center=true&vCenter=true&width=920&color=E5E7EB&lines=Backend+Java%2FSpring+Boot+orientado+a+APIs+limpias%2C+testeables+y+documentadas;Cach%C3%A9%2C+resiliencia%2C+CI+y+mentalidad+de+producci%C3%B3n;Buscando+pr%C3%A1cticas+de+verano+con+posibilidad+de+incorporaci%C3%B3n" alt="Resumen profesional" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&center=true&vCenter=true&width=900&color=E5E7EB&lines=APIs+limpias%2C+testeables+y+documentadas;Cach%C3%A9%2C+resiliencia%2C+CI+y+mentalidad+de+producci%C3%B3n" alt="Resumen profesional" />
 </p>
 
 ## Sobre mí
 
-Soy estudiante de **Ingeniería Informática - Ingeniería del Software**, en último año, con foco claro en **desarrollo backend con Java y Spring Boot**.
+Soy estudiante de **Ingeniería Informática - Ingeniería del Software**, en último año, y estoy orientando mi entrada al mercado hacia **equipos backend Java/Spring Boot** que trabajen con **APIs, integraciones y calidad de software**.
 
-Me interesa construir **APIs mantenibles, testeables y preparadas para entornos reales**: con contratos claros, caché para reducir carga externa, resiliencia ante fallos, documentación utilizable y automatización básica de calidad.
+Mi foco está en construir servicios que no solo funcionen, sino que además sean **mantenibles, testeables, observables y fáciles de evolucionar**. Me interesa especialmente el backend que se acerca a producción: contratos claros, fallos controlados, documentación útil y automatización de calidad.
 
-En mis proyectos trabajo especialmente con:
+En mis proyectos trabajo con especial atención a:
 
+- **APIs REST** limpias y bien estructuradas.
 - **Testing automatizado** con `JUnit 5` y `WireMock`.
-- **Caché en memoria** con `Caffeine`.
-- **Resiliencia** con `Resilience4j`.
+- **Caché en memoria** con `Caffeine` para reducir latencia y llamadas innecesarias.
+- **Resiliencia** con `Resilience4j` en integraciones con servicios externos.
 - **Documentación de API** con `OpenAPI / Swagger`.
 - **CI** con `GitHub Actions`.
 - **Mentalidad de producción**: observabilidad, claridad operativa y código fácil de mantener.
 
-Actualmente busco **prácticas de verano como Backend Developer Java/Spring Boot**, idealmente con **posibilidad de incorporación**.
+Actualmente busco **prácticas de verano 2026 como Backend Developer Java/Spring Boot**, idealmente con **posibilidad de incorporación**.
 
 ## Tech Stack
 
@@ -61,9 +68,9 @@ Servicio backend en **Spring Boot** que actúa como **proxy frente a una API ext
 
 **Qué problema resuelve**
 
-- Evita depender de forma directa del proveedor externo en cada llamada.
-- Reduce peticiones repetidas y mejora el comportamiento ante latencia, errores o rate limiting.
-- Añade una capa backend controlada, documentada y preparada para evolucionar.
+- Evita consumir directamente el proveedor externo en cada petición.
+- Reduce llamadas repetidas y mejora el comportamiento ante latencia, errores o rate limiting.
+- Añade una capa backend controlada, documentada y preparada para crecer con criterios de calidad.
 
 **Stack usado**
 
@@ -71,13 +78,14 @@ Servicio backend en **Spring Boot** que actúa como **proxy frente a una API ext
 
 **Qué demuestra técnicamente**
 
-- Diseño de una API backend con integración hacia terceros.
-- Uso de caché para mejorar eficiencia y desacoplar consumo externo.
-- Resiliencia aplicada a integraciones con servicios remotos.
-- Testing de comportamiento e integración controlada con mocks.
-- Documentación y observabilidad como parte del propio servicio.
+- Diseño de una API backend con integración real hacia terceros.
+- Desacoplo del proveedor externo mediante una capa propia de servicio.
+- Optimización del consumo externo con caché.
+- Resiliencia aplicada a llamadas remotas.
+- Testing automatizado para validar comportamiento y escenarios de integración.
+- Documentación y observabilidad integradas en el propio servicio.
 
-**Quickstart**
+**Arranque rápido**
 
 ```bash
 mvn spring-boot:run
@@ -99,19 +107,19 @@ Proyecto académico de ecommerce con `Django`, pagos con `Stripe`, panel de gest
 
 ## Cómo trabajo
 
-- Pull requests con cambios acotados y revisables.
-- Commits atómicos y mensajes claros.
+- Pull requests con cambios acotados, contexto claro y foco en revisión.
+- Commits atómicos y trazables.
 - Testing automatizado como red de seguridad antes de integrar.
-- Documentación útil para desarrollo, uso y operación.
+- Documentación útil para desarrollo, consumo y operación.
 - Código mantenible, legible y fácil de extender.
-- CI con validaciones automáticas.
-- Mentalidad de producto: no solo que funcione, también que se pueda operar y evolucionar.
+- CI con validaciones automáticas para reducir regresiones.
+- Mentalidad de producto: pienso en robustez, errores, operabilidad y evolución.
 - Comunicación clara y trabajo en equipo.
 
 ## Métricas
 
 <p align="center">
-  <img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=jesrammar&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&theme=transparent" />
+  <img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=jesrammar&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide_rank=true&theme=transparent" />
   <img alt="Top languages" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesrammar&layout=compact&langs_count=8&hide_title=true&theme=transparent" />
 </p>
 
