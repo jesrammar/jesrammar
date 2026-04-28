@@ -27,19 +27,17 @@
 
 ## Sobre mí
 
-Soy estudiante de **Ingeniería Informática - Ingeniería del Software**, en último año, y estoy orientando mi entrada al mercado hacia **equipos backend Java/Spring Boot** que trabajen con **APIs, integraciones y calidad de software**.
+Soy estudiante de **Ingeniería Informática - Ingeniería del Software**, en último año, con foco claro en **backend Java/Spring Boot** aplicado a **APIs, integraciones y calidad de software**.
 
-Mi foco está en construir servicios que no solo funcionen, sino que además sean **mantenibles, testeables, observables y fáciles de evolucionar**. Me interesa especialmente el backend que se acerca a producción: contratos claros, fallos controlados, documentación útil y automatización de calidad.
+Me interesa construir servicios que no solo funcionen, sino que además sean **mantenibles, testeables, observables y fáciles de evolucionar**. Mi objetivo es incorporarme a un equipo donde pueda aportar desde el primer día en código backend con criterios de calidad y mentalidad de producción.
 
-En mis proyectos trabajo con especial atención a:
+Trabajo especialmente en:
 
 - **APIs REST** limpias y bien estructuradas.
-- **Testing automatizado** con `JUnit 5` y `WireMock`.
-- **Caché en memoria** con `Caffeine` para reducir latencia y llamadas innecesarias.
-- **Resiliencia** con `Resilience4j` en integraciones con servicios externos.
-- **Documentación de API** con `OpenAPI / Swagger`.
-- **CI** con `GitHub Actions`.
-- **Mentalidad de producción**: observabilidad, claridad operativa y código fácil de mantener.
+- **Testing automatizado** con `JUnit 5` y `WireMock` para validar comportamiento e integraciones.
+- **Caché** con `Caffeine` y **resiliencia** con `Resilience4j` en consumo de servicios externos.
+- **Documentación de API** con `OpenAPI / Swagger` y **observabilidad** con `Actuator`.
+- **CI** con `GitHub Actions` y código pensado para ser claro, mantenible y fácil de operar.
 
 Actualmente busco **prácticas de verano 2026 como Backend Developer Java/Spring Boot**, idealmente con **posibilidad de incorporación**.
 
@@ -59,11 +57,11 @@ Actualmente busco **prácticas de verano 2026 como Backend Developer Java/Spring
 
 ### [spring-dicebear-proxy-cache](https://github.com/jesrammar/spring-dicebear-proxy-cache)
 
-Servicio backend en **Spring Boot** que actúa como **proxy frente a una API externa**, reduciendo llamadas repetidas mediante **caché**, añadiendo **resiliencia ante fallos** y exponiendo **documentación y observabilidad**.
+Servicio backend en **Spring Boot** que actúa como **proxy frente a una API externa**, reduciendo llamadas repetidas con **caché**, añadiendo **resiliencia ante fallos** y exponiendo una capa propia con **documentación y observabilidad**.
 
-**Qué problema resuelve**
+**Qué aporta**
 
-- Evita consumir directamente el proveedor externo en cada petición.
+- Evita depender directamente del proveedor externo en cada petición.
 - Reduce llamadas repetidas y mejora el comportamiento ante latencia, errores o rate limiting.
 - Añade una capa backend controlada, documentada y preparada para crecer con criterios de calidad.
 
@@ -75,10 +73,7 @@ Servicio backend en **Spring Boot** que actúa como **proxy frente a una API ext
 
 - Diseño de una API backend con integración real hacia terceros.
 - Desacoplo del proveedor externo mediante una capa propia de servicio.
-- Optimización del consumo externo con caché.
-- Resiliencia aplicada a llamadas remotas.
-- Testing automatizado para validar comportamiento y escenarios de integración.
-- Documentación y observabilidad integradas en el propio servicio.
+- Caché, resiliencia, testing automatizado, documentación y observabilidad integradas desde el diseño.
 
 **Arranque rápido**
 
@@ -95,20 +90,20 @@ Si mantienes la configuración por defecto, la documentación y los endpoints op
 ## Otros proyectos
 
 ### [EnterpriseIQ](https://github.com/jesrammar/EnterpriseIQ)
-Plataforma orientada a consultoría con backend en `Java 21 + Spring Boot`, `PostgreSQL`, `Flyway`, observabilidad con `Actuator + Prometheus + Grafana` e infraestructura con `Docker`. Refuerza perfil de arquitectura por capas, roles, operación y despliegue.
+Plataforma orientada a consultoría con backend en `Java 21 + Spring Boot`, `PostgreSQL`, `Flyway`, observabilidad con `Actuator + Prometheus + Grafana` e infraestructura con `Docker`.
 
 ### [ecommerce-store](https://github.com/jesrammar/ecommerce-store)
-Proyecto académico de ecommerce con `Django`, pagos con `Stripe`, panel de gestión y documentación amplia. Aporta contexto full-stack, pero mi foco profesional actual está en **backend Java/Spring Boot**.
+Proyecto académico de ecommerce con `Django`, pagos con `Stripe` y panel de gestión. Aporta contexto full-stack, pero mi foco profesional actual está en **backend Java/Spring Boot**.
 
 ## Cómo trabajo
 
-- Pull requests con cambios acotados, contexto claro y foco en revisión.
+- Pull requests con cambios acotados y foco en revisión.
 - Commits atómicos y trazables.
-- Testing automatizado como red de seguridad antes de integrar.
+- Testing automatizado antes de integrar.
 - Documentación útil para desarrollo, consumo y operación.
 - Código mantenible, legible y fácil de extender.
 - CI con validaciones automáticas para reducir regresiones.
-- Mentalidad de producto: pienso en robustez, errores, operabilidad y evolución.
+- Mentalidad de producto: robustez, errores, operabilidad y evolución.
 - Comunicación clara y trabajo en equipo.
 
 ## Métricas
