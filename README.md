@@ -12,9 +12,9 @@
   <a href="mailto:villalbero14@gmail.com">
     <img src="https://img.shields.io/badge/Email-villalbero14%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/jes%C3%BAs-ram%C3%ADrez-mart%C3%ADnez/">
-    <img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Ram%C3%ADrez%20Mart%C3%ADnez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
-  </a>
+  <a href="https://www.linkedin.com/in/jes%C3%BAs-ram%C3%ADrez-mart%C3%ADnez-901685412/">
+  <img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Ram%C3%ADrez%20Mart%C3%ADnez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
+</a>
   <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache">
     <img src="https://img.shields.io/badge/Proyecto%20principal-spring--dicebear--proxy--cache-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="Proyecto principal" />
   </a>
