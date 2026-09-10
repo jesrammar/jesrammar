@@ -68,14 +68,23 @@ proxy+=rect(564,97,116,44)+text(622,125,'Proxy API',16,C.white,600,'text-anchor=
 proxy+=path('M622 141V177H771',C.cyan,2,'marker-end="url(#arrow)"')+text(634,165,'cache miss',13,C.muted)+rect(779,157,120,44)+text(839,185,'DiceBear',16,C.white,600,'text-anchor="middle"')+text(564,232,'WebClient · retry · tests con WireMock',15,C.muted);
 save('proxy-cache',281,'Proxy con Caffeine y reintentos Resilience4j',proxy);
 
-let metrics=label(38,42,'ENTERPRISEIQ / CÓDIGO EN CIFRAS');
+let ecommerce=label(38,40,'03 / FULL-STACK CON DJANGO',C.green);
+ecommerce+=text(38,89,'Ecommerce Store',37,C.white,700)+text(38,125,'Catálogo, carrito, pedidos y gestión.',21,C.muted);
+ecommerce+=pill(38,155,109,'PYTHON',C.green)+pill(159,155,116,'DJANGO',C.green)+pill(287,155,146,'STRIPE · TEST',C.purple);
+ecommerce+=rect(566,36,356,158,'#0F242A','#28564F')+label(589,70,'APLICACIÓN ACADÉMICA',C.green);
+ecommerce+=text(589,106,'Checkout y seguimiento de pedidos',17,C.white,500)+text(589,137,'Autenticación y sesiones',17,C.muted)+text(589,168,'Panel de gestión propio',17,C.muted);
+save('ecommerce',222,'Ecommerce Store con Python, Django y Stripe en modo de pruebas',ecommerce);
+
+let metrics=label(38,42,'PORTFOLIO / 3 PROYECTOS');
 metrics+=text(38,82,'Archivos versionados por lenguaje',26,C.white,600);
 const max=Math.max(...Object.values(data.counts));
-const palette=[C.cyan,C.purple,C.green,'#83B9FE','#F8CB87','#EA9CC8','#ABB9D2'];
-Object.entries(data.counts).forEach(([language,n],i)=>{let y=124+i*38;metrics+=text(38,y+14,language,17,C.muted)+rect(168,y,372,16,'#19263A','#19263A',3)+rect(168,y,372*n/max,16,palette[i],palette[i],2)+text(556,y+14,n,17,C.white,600);});
-metrics+=rect(649,108,273,123,'#101E2E','#2F4B62')+text(670,160,data.testJavaFiles,44,C.cyan,700)+text(670,188,'archivos Java de pruebas',17,C.white)+text(670,211,'backend/src/test/java',13,C.muted);
-metrics+=rect(649,248,273,123,'#171C32','#484466')+text(670,300,data.flywayMigrations,44,C.purple,700)+text(670,330,'migraciones Flyway',19,C.white)+text(670,351,'Esquema versionado',14,C.muted);
-metrics+=text(38,415,`Recuento a ${data.snapshotDate} · revisión ${data.revision.slice(0,7)} · archivos, no líneas de código`,15,C.muted);
-save('code-snapshot',446,'Composición del código de EnterpriseIQ',metrics,Object.entries(data.counts).map(([k,v])=>`${k}: ${v} archivos`).join('. ')+`. ${data.testJavaFiles} archivos Java de pruebas y ${data.flywayMigrations} migraciones Flyway. Snapshot: ${data.snapshotDate}.`);
+const palette={Java:C.cyan,Python:C.green,TypeScript:C.purple,HTML:'#EA9CC8',SQL:'#83B9FE',JavaScript:'#F8CB87',Shell:'#ABB9D2',CSS:'#D4A2EB'};
+Object.entries(data.counts).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).forEach(([language,n],i)=>{let y=124+i*38;metrics+=text(38,y+14,language,17,C.muted)+rect(168,y,372,16,'#19263A','#19263A',3)+rect(168,y,372*n/max,16,palette[language],palette[language],2)+text(556,y+14,n,17,C.white,600);});
+const enterpriseData=data.repositories.find(r=>r.repository==='jesrammar/EnterpriseIQ');
+metrics+=label(649,120,'EN ENTERPRISEIQ',C.muted);
+metrics+=rect(649,139,273,113,'#101E2E','#2F4B62')+text(670,187,enterpriseData.testJavaFiles,44,C.cyan,700)+text(670,216,'archivos Java de pruebas',17,C.white)+text(670,236,'backend/src/test/java',13,C.muted);
+metrics+=rect(649,272,273,113,'#171C32','#484466')+text(670,320,enterpriseData.flywayMigrations,44,C.purple,700)+text(670,350,'migraciones Flyway',19,C.white)+text(670,372,'Esquema versionado',14,C.muted);
+metrics+=text(38,459,`Recuento a ${data.snapshotDate} · EnterpriseIQ + Proxy Cache + Ecommerce Store`,15,C.muted);
+save('code-snapshot',490,'Composición del código de los tres proyectos del portfolio',metrics,Object.entries(data.counts).map(([k,v])=>`${k}: ${v} archivos`).join('. ')+`. En EnterpriseIQ: ${enterpriseData.testJavaFiles} archivos Java de pruebas y ${enterpriseData.flywayMigrations} migraciones Flyway. Snapshot: ${data.snapshotDate}.`);
 
-console.log('Generated 5 self-contained SVG assets.');
+console.log('Generated 6 self-contained SVG assets.');

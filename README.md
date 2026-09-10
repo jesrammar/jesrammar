@@ -11,7 +11,8 @@
   <a href="mailto:jramirezsoftware@gmail.com"><strong>Email</strong></a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/jes%C3%BAs-ram%C3%ADrez-mart%C3%ADnez-901685412/"><strong>LinkedIn</strong></a> &nbsp; / &nbsp;
   <a href="#enterpriseiq"><strong>EnterpriseIQ</strong></a> &nbsp; / &nbsp;
-  <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache"><strong>Proxy + Cache</strong></a>
+  <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache"><strong>Proxy + Cache</strong></a> &nbsp; / &nbsp;
+  <a href="https://github.com/jesrammar/ecommerce-store"><strong>Django Ecommerce</strong></a>
 </p>
 
 Busco mi primera oportunidad profesional en desarrollo. Me interesa trabajar en APIs, integraciones y procesamiento de datos, con pruebas automatizadas y una operación bien documentada.
@@ -48,11 +49,21 @@ API que centraliza el consumo de DiceBear, evita llamadas repetidas con caché y
 
 [**Explorar código, pruebas y ejecución →**](https://github.com/jesrammar/spring-dicebear-proxy-cache)
 
-## Ingeniería en el repositorio
+<br />
 
-<img src="assets/code-snapshot.svg" width="100%" alt="EnterpriseIQ: 340 archivos Java, 68 TypeScript, 33 SQL, 6 JavaScript, 5 CSS, 4 HTML y 2 Shell; 30 archivos Java de pruebas y 28 migraciones Flyway" />
+<a href="https://github.com/jesrammar/ecommerce-store">
+  <img src="assets/ecommerce.svg" width="100%" alt="Ecommerce Store: aplicación full-stack con Python, Django, catálogo, carrito, pedidos, panel de gestión y Stripe en modo de pruebas" />
+</a>
 
-<sub>Instantánea del código de EnterpriseIQ. Los archivos de pruebas y las migraciones forman parte del gráfico; no son sumas adicionales. [Datos y método del recuento](data/repository-snapshot.json).</sub>
+Proyecto académico con **Python y Django**: catálogo, carrito persistente por sesión, checkout, seguimiento de pedidos y panel de gestión propio. Integra Stripe en modo de pruebas y amplía mi experiencia full-stack.
+
+[**Explorar el ecommerce y su código Python →**](https://github.com/jesrammar/ecommerce-store)
+
+## Código del portfolio
+
+<img src="assets/code-snapshot.svg" width="100%" alt="Suma de EnterpriseIQ, Proxy Cache y Ecommerce Store: 351 archivos Java, 76 Python, 68 TypeScript, 36 HTML, 33 SQL, 6 JavaScript, 6 Shell y 5 CSS. En EnterpriseIQ: 30 archivos Java de pruebas y 28 migraciones Flyway" />
+
+<sub>Suma de archivos de los tres proyectos seleccionados. Incluye plantillas, migraciones, pruebas y archivos de inicialización; no mide líneas de código ni cobertura. Los dos indicadores de la derecha corresponden solo a EnterpriseIQ y ya están incluidos en el gráfico. [Desglose por proyecto y método del recuento](data/repository-snapshot.json).</sub>
 
 ---
 

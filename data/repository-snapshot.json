@@ -1,17 +1,63 @@
 {
-  "repository": "jesrammar/EnterpriseIQ",
-  "revision": "020aa8e6d372864e0eac09f8916a49074ba0fbd2",
-  "snapshotDate": "2026-09-10",
   "counts": {
-    "Java": 340,
-    "TypeScript": 68,
-    "SQL": 33,
-    "JavaScript": 6,
     "CSS": 5,
-    "HTML": 4,
-    "Shell": 2
+    "HTML": 36,
+    "Java": 351,
+    "JavaScript": 6,
+    "Python": 76,
+    "SQL": 33,
+    "Shell": 6,
+    "TypeScript": 68
   },
-  "testJavaFiles": 30,
-  "flywayMigrations": 28,
-  "method": "Recuento de archivos versionados por extensión; TypeScript = .ts + .tsx, JavaScript = .js + .mjs. No mide líneas de código, nivel de dominio ni cobertura. Pruebas: archivos .java en backend/src/test/java. Migraciones: archivos .sql en backend/src/main/resources/db/migration."
+  "extensions": {
+    "css": "CSS",
+    "html": "HTML",
+    "java": "Java",
+    "js": "JavaScript",
+    "mjs": "JavaScript",
+    "py": "Python",
+    "sh": "Shell",
+    "sql": "SQL",
+    "ts": "TypeScript",
+    "tsx": "TypeScript"
+  },
+  "method": "Suma de archivos versionados por extensión en las revisiones indicadas de EnterpriseIQ, spring-dicebear-proxy-cache y ecommerce-store. TypeScript = .ts + .tsx; JavaScript = .js + .mjs; Python = .py, incluidos __init__, migraciones y archivos de pruebas. No incluye otros repositorios, imágenes, dependencias declaradas ni ficheros sin las extensiones enumeradas. Cuenta archivos, no líneas de código, pruebas ejecutables, cobertura ni nivel de dominio. Los indicadores de pruebas Java y migraciones Flyway pertenecen exclusivamente a EnterpriseIQ y están incluidos en los totales por lenguaje.",
+  "repositories": [
+    {
+      "branch": "main",
+      "counts": {
+        "CSS": 5,
+        "HTML": 4,
+        "Java": 340,
+        "JavaScript": 6,
+        "SQL": 33,
+        "Shell": 2,
+        "TypeScript": 68
+      },
+      "flywayMigrations": 28,
+      "repository": "jesrammar/EnterpriseIQ",
+      "revision": "020aa8e6d372864e0eac09f8916a49074ba0fbd2",
+      "testJavaFiles": 30
+    },
+    {
+      "branch": "develop",
+      "counts": {
+        "Java": 11,
+        "Shell": 4
+      },
+      "repository": "jesrammar/spring-dicebear-proxy-cache",
+      "revision": "d57b5ae559934c6374b4e74ca08e6a5d20cf4564"
+    },
+    {
+      "branch": "main",
+      "counts": {
+        "HTML": 32,
+        "Python": 76
+      },
+      "repository": "jesrammar/ecommerce-store",
+      "revision": "4bf3497233a3ed8a5fbc5e4a1bf166d0bf965208"
+    }
+  ],
+  "scope": "Tres proyectos seleccionados del portfolio",
+  "snapshotDate": "2026-09-10"
 }
