@@ -21,13 +21,15 @@ Busco mi primera oportunidad profesional en desarrollo. Me interesa trabajar en 
 
 <a id="enterpriseiq"></a>
 
-<img src="assets/enterpriseiq.svg" width="100%" alt="EnterpriseIQ: plataforma para consultoras que convierte CSV y XLSX en análisis, presupuestos, costes e informes" />
+<a href="https://github.com/jesrammar/EnterpriseIQ">
+  <img src="assets/enterpriseiq.svg" width="100%" alt="EnterpriseIQ: plataforma para consultoras que convierte CSV y XLSX en análisis, presupuestos, costes e informes" />
+</a>
 
 Mi proyecto principal: una plataforma para que una consultora gestione varias empresas y transforme sus ficheros operativos y financieros en información para decidir. Integra autenticación por roles y empresa, normalización de datos, análisis y entregables HTML/PDF.
 
 **Java 21 · Spring Boot · React / TypeScript · PostgreSQL · Flyway · Docker**
 
-El código de EnterpriseIQ es privado. [Contacta conmigo para conocer el proyecto](mailto:jramirezsoftware@gmail.com?subject=EnterpriseIQ).
+[**Explorar código, documentación y ejecución →**](https://github.com/jesrammar/EnterpriseIQ)
 
 <details>
 <summary><strong>Explorar la arquitectura de EnterpriseIQ</strong></summary>
