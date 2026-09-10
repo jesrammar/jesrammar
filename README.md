@@ -1,113 +1,86 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0b3b60,100:16a34a&height=170&section=header&text=Jes%C3%BAs%20R.%20%7C%20Backend%20Developer&fontColor=ffffff&fontSize=34&fontAlignY=40&desc=Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20REST%20APIs%20%C2%B7%20Testing%20%C2%B7%20Resiliencia&descAlignY=62&animation=fadeIn" alt="Banner de perfil de Jesús R." />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0b3b60,100:16a34a&height=170&section=header&text=Jes%C3%BAs%20R.%20%7C%20Backend%20Developer&fontColor=ffffff&fontSize=34&fontAlignY=40&desc=Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20React%20%C2%B7%20PostgreSQL%20%C2%B7%20Docker&descAlignY=62&animation=fadeIn" alt="Banner de perfil de Jesús R." />
 </p>
 
 <p align="center">
-  <strong>Jesús R. | Backend Developer</strong><br />
-  Java · Spring Boot · REST APIs · Testing · Resiliencia<br />
-  Disponible para prácticas de verano 2026 + posible incorporación
+  Estudiante de Ingeniería del Software en último curso.<br />
+  Construyo productos full-stack con especialización en backend Java/Spring Boot.
 </p>
 
 <p align="center">
-  <a href="mailto:jramirezsoftware@gmail.com">
-    <img src="https://img.shields.io/badge/Email-jramirezsoftware%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/jes%C3%BAs-ram%C3%ADrez-mart%C3%ADnez-901685412/">
-  <img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Ram%C3%ADrez%20Mart%C3%ADnez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
-</a>
-  <a href="https://github.com/jesrammar/spring-dicebear-proxy-cache">
-    <img src="https://img.shields.io/badge/Proyecto%20principal-spring--dicebear--proxy--cache-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="Proyecto principal" />
-  </a>
-</p>
-
-<p align="center">
-  <strong>APIs limpias, testeables y documentadas.</strong><br />
-  Caché, resiliencia, CI y mentalidad de producción.
+  <a href="mailto:jramirezsoftware@gmail.com"><img src="https://img.shields.io/badge/Email-jramirezsoftware%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/jes%C3%BAs-ram%C3%ADrez-mart%C3%ADnez-901685412/"><img src="https://img.shields.io/badge/LinkedIn-Jes%C3%BAs%20Ram%C3%ADrez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" /></a>
+  <a href="https://github.com/jesrammar/EnterpriseIQ"><img src="https://img.shields.io/badge/Proyecto%20principal-EnterpriseIQ-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="EnterpriseIQ" /></a>
 </p>
 
 ## Sobre mí
 
-Soy estudiante de **Ingeniería Informática - Ingeniería del Software**, en último año, con foco claro en **backend Java/Spring Boot** aplicado a **APIs, integraciones y calidad de software**.
+Soy estudiante de **Ingeniería Informática - Ingeniería del Software**, en último curso, orientado a **backend Java/Spring Boot** y al desarrollo de productos completos.
 
-Me interesa construir servicios que no solo funcionen, sino que además sean **mantenibles, testeables, observables y fáciles de evolucionar**. Mi objetivo es incorporarme a un equipo donde pueda aportar desde el primer día en código backend con criterios de calidad y mentalidad de producción.
+Me interesa resolver problemas reales con software mantenible: APIs, seguridad, persistencia, procesamiento de datos, testing, despliegue y observabilidad. Actualmente busco mi **primera oportunidad profesional** para aportar en un equipo de desarrollo y seguir creciendo como ingeniero.
 
-Trabajo especialmente en:
+## Proyecto principal
 
-- **APIs REST** limpias y bien estructuradas.
-- **Testing automatizado** con `JUnit 5` y `WireMock` para validar comportamiento e integraciones.
-- **Caché** con `Caffeine` y **resiliencia** con `Resilience4j` en consumo de servicios externos.
-- **Documentación de API** con `OpenAPI / Swagger` y **observabilidad** con `Actuator`.
-- **CI** con `GitHub Actions` y código pensado para ser claro, mantenible y fácil de operar.
+### [EnterpriseIQ — inteligencia operativa para consultoras](https://github.com/jesrammar/EnterpriseIQ)
 
-Actualmente busco **prácticas de verano 2026 como Backend Developer Java/Spring Boot**, idealmente con **posibilidad de incorporación**.
-
-## Tech Stack
+EnterpriseIQ convierte ficheros operativos y financieros en **KPIs, alertas, presupuestos, análisis y entregables para la toma de decisiones**. Está diseñado para que una consultora gestione varias empresas desde una única plataforma, con separación de acceso por roles y cartera de clientes.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,postgres,docker,git,github,githubactions,linux&theme=dark" alt="Stack principal" />
+  <a href="https://github.com/jesrammar/EnterpriseIQ">
+    <img src="https://raw.githubusercontent.com/jesrammar/EnterpriseIQ/main/docs/demo-preview.png" alt="Vista del producto EnterpriseIQ" width="92%" />
+  </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/JUnit%205-0f172a?style=flat-square&logo=junit5&logoColor=25A162" alt="JUnit 5" />
-  <img src="https://img.shields.io/badge/WireMock-0f172a?style=flat-square&logoColor=white" alt="WireMock" />
-  <img src="https://img.shields.io/badge/OpenAPI%20%2F%20Swagger-0f172a?style=flat-square&logo=swagger&logoColor=85EA2D" alt="OpenAPI / Swagger" />
-</p>
+**Qué resuelve**
 
-## Proyecto destacado
-
-### [spring-dicebear-proxy-cache](https://github.com/jesrammar/spring-dicebear-proxy-cache)
-
-Servicio backend en **Spring Boot** que actúa como **proxy frente a una API externa**, reduciendo llamadas repetidas con **caché**, añadiendo **resiliencia ante fallos** y exponiendo una capa propia con **documentación y observabilidad**.
-
-**Qué aporta**
-
-- Evita depender directamente del proveedor externo en cada petición.
-- Reduce llamadas repetidas y mejora el comportamiento ante latencia, errores o rate limiting.
-- Añade una capa backend controlada, documentada y preparada para crecer con criterios de calidad.
-
-**Stack usado**
-
-`Java 21` · `Spring Boot 3` · `WebClient` · `Caffeine` · `Resilience4j` · `OpenAPI / Swagger` · `Spring Actuator` · `JUnit 5` · `WireMock` · `GitHub Actions`
+- Centraliza la información de distintas empresas y perfiles de usuario.
+- Normaliza e interpreta ficheros CSV/XLSX para producir análisis accionables.
+- Automatiza informes y entregables HTML/PDF.
+- Añade una base operable: auditoría, observabilidad, alertas, backups y restore.
 
 **Qué demuestra técnicamente**
 
-- Diseño de una API backend con integración real hacia terceros.
-- Desacoplo del proveedor externo mediante una capa propia de servicio.
-- Caché, resiliencia, testing automatizado, documentación y observabilidad integradas desde el diseño.
+- Aplicación full-stack con `Java 21`, `Spring Boot 3`, `React` y `TypeScript`.
+- Seguridad con JWT, refresh tokens, roles y acceso por empresa gestionada.
+- PostgreSQL con migraciones Flyway e ingesta de datos CSV/XLSX.
+- Testing automatizado, CI con GitHub Actions y despliegue con Docker.
+- Operación con Actuator, Prometheus, Grafana y Alertmanager.
+- Arquitectura monolítica modular, almacenamiento persistente y tareas programadas.
 
-**Arranque rápido**
+<p align="center">
+  <a href="https://github.com/jesrammar/EnterpriseIQ/blob/main/docs/architecture/enterpriseiq-overview.svg">
+    <img src="https://raw.githubusercontent.com/jesrammar/EnterpriseIQ/main/docs/architecture/enterpriseiq-overview.svg" alt="Arquitectura de EnterpriseIQ" width="100%" />
+  </a>
+</p>
 
-```bash
-mvn spring-boot:run
-```
-
-Si mantienes la configuración por defecto, la documentación y los endpoints operativos suelen quedar accesibles en:
-
-- `Swagger UI`: `http://localhost:8080/swagger-ui/index.html`
-- `OpenAPI`: `http://localhost:8080/v3/api-docs`
-- `Actuator`: `http://localhost:8080/actuator`
+<p align="center">
+  <a href="https://github.com/jesrammar/EnterpriseIQ"><strong>Ver repositorio, documentación y arranque local →</strong></a>
+</p>
 
 ## Otros proyectos
 
-### [EnterpriseIQ](https://github.com/jesrammar/EnterpriseIQ)
-Plataforma orientada a consultoría con backend en `Java 21 + Spring Boot`, `PostgreSQL`, `Flyway`, observabilidad con `Actuator + Prometheus + Grafana` e infraestructura con `Docker`.
+### [spring-dicebear-proxy-cache](https://github.com/jesrammar/spring-dicebear-proxy-cache)
+
+Servicio backend que protege el consumo de una API externa mediante **caché, resiliencia y una interfaz propia documentada**.
+
+`Java 21` · `Spring Boot 3` · `WebClient` · `Caffeine` · `Resilience4j` · `OpenAPI` · `Actuator` · `JUnit 5` · `WireMock` · `GitHub Actions`
 
 ### [ecommerce-store](https://github.com/jesrammar/ecommerce-store)
-Proyecto académico de ecommerce con `Django`, pagos con `Stripe` y panel de gestión. Aporta contexto full-stack, pero mi foco profesional actual está en **backend Java/Spring Boot**.
+
+Ecommerce académico con `Django`, pagos con `Stripe` y panel de gestión. Muestra experiencia full-stack complementaria a mi especialización actual en Java/Spring Boot.
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,react,ts,postgres,docker,git,github,githubactions,linux&theme=dark" alt="Stack técnico" />
+</p>
+
+`JUnit 5` · `WireMock` · `Flyway` · `OpenAPI / Swagger` · `Spring Actuator` · `Prometheus` · `Grafana`
 
 ## Cómo trabajo
 
-- Pull requests con cambios acotados y foco en revisión.
-- Commits atómicos y trazables.
-- Testing automatizado antes de integrar.
-- Documentación útil para desarrollo, consumo y operación.
-- Código mantenible, legible y fácil de extender.
-- CI con validaciones automáticas para reducir regresiones.
-- Mentalidad de producto: robustez, errores, operabilidad y evolución.
-- Comunicación clara y trabajo en equipo.
-
-## Métricas
-
-<p align="center">
-  <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jesrammar&theme=github-dark&bg_color=0d1117&color=9be9a8&line=2ea043&point=58a6ff&hide_border=true&radius=8&area=true" />
-</p>
+- Diseño APIs y módulos con responsabilidades claras.
+- Escribo pruebas automatizadas para reducir regresiones.
+- Documento decisiones, ejecución y operación del software.
+- Uso Git, pull requests y CI para mantener cambios revisables.
+- Pienso más allá del CRUD: seguridad, errores, observabilidad y evolución.
