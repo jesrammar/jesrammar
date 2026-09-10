@@ -1,6 +1,6 @@
 # Mantenimiento de la portada
 
-Las seis imágenes de `assets/` son SVG autocontenidos. No cargan fuentes remotas, scripts, imágenes enlazadas ni servicios de estadísticas. El perfil funciona con los archivos de este repositorio público aunque EnterpriseIQ siga privado.
+Las seis imágenes de `assets/` son SVG autocontenidos. No cargan fuentes remotas, scripts, imágenes enlazadas ni servicios de estadísticas.
 
 Regenerar los gráficos, sin instalar dependencias:
 
@@ -12,4 +12,4 @@ node scripts/render-profile.mjs
 
 La arquitectura resume `docs/architecture/enterpriseiq-overview.architecture.json` de EnterpriseIQ. Ingesta, análisis, informes, automatización y auditoría son responsabilidades internas del monolito Spring Boot, no microservicios separados.
 
-La portada presenta EnterpriseIQ primero, spring-dicebear-proxy-cache segundo y ecommerce-store tercero. Los elementos nativos de **Pinned** se gestionan aparte en GitHub; editar este README no modifica sus pins. EnterpriseIQ necesita ser elegible para fijarse públicamente, y actualmente su código es privado. Cuando cambie su visibilidad, actualizar la nota de privacidad y el enlace de contacto de la portada.
+La portada presenta EnterpriseIQ primero, spring-dicebear-proxy-cache segundo y ecommerce-store tercero. Los elementos nativos de **Pinned** se gestionan aparte en GitHub; editar este README no modifica sus pins. EnterpriseIQ es público y su tarjeta enlaza directamente al repositorio.
