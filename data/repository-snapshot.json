@@ -1,0 +1,17 @@
+{
+  "repository": "jesrammar/EnterpriseIQ",
+  "revision": "020aa8e6d372864e0eac09f8916a49074ba0fbd2",
+  "snapshotDate": "2026-09-10",
+  "counts": {
+    "Java": 340,
+    "TypeScript": 68,
+    "SQL": 33,
+    "JavaScript": 6,
+    "CSS": 5,
+    "HTML": 4,
+    "Shell": 2
+  },
+  "testJavaFiles": 30,
+  "flywayMigrations": 28,
+  "method": "Recuento de archivos versionados por extensión; TypeScript = .ts + .tsx, JavaScript = .js + .mjs. No mide líneas de código, nivel de dominio ni cobertura. Pruebas: archivos .java en backend/src/test/java. Migraciones: archivos .sql en backend/src/main/resources/db/migration."
+}
